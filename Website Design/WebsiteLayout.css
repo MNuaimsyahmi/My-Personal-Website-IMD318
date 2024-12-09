@@ -56,9 +56,18 @@ body {
     max-width: 1100px;
     margin: 0 auto;
 }
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
      .SideBanner {
           display: none; 
+          }
+	 .LeftBanner {
+          display: none; 
+          }
+     .RightBanner {
+          display: none; 
+          }
+	 .content {
+          display: contents; 
           }
           body {
               padding: 0; 
@@ -97,16 +106,13 @@ footer {
   color: white;
   border-radius: 4px;
 }
-
 .Albums:hover {
   border: 2px solid #eed202;
 }
-
 .Albums img {
   width: 100%;
   height: auto;
   max-height: 300px;
-  
 }
 
 .desc {
@@ -118,7 +124,6 @@ img {
   margin-left: auto;
   margin-right: auto;
 }
-
 .Photos{
   margin: 10px;
   border: 1px solid black;
@@ -132,14 +137,11 @@ img {
   color: white;
   border-radius: 4px;
 }
-
 .Photos:hover {
   border: 1px solid #eed202;
-}
-
+} 
 .Photos img {
   width: 100%;
   height: auto;
   max-height: 130px;
-  
 }
