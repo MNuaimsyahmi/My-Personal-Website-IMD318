@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home Page</title>
+<style>
+
+#myVideo {
+  position: fixed;
+  right: -25%;
+  bottom: -24%;
+  min-width: 100%;
+  min-height: 100%;
+}
+.Intro {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+img {
+  padding-right: 90px; 
+  border-radius: 50%; 
+  max-width: 40%; 
+  max-height: 40%;
+}
+.text {
+  position: relative;
+  font-size: 40px;
+  padding-left: 100px;
+  float:left;
+  color:#eed202 ; 
+  font-family:verdana;
+}
+.Box { 
+    position: relative;
+    font-size: 30px;
+    text-align: center;
+    background-color: #1d3030 ;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+	color:#a4c0f4; 
+    font-family:Tahoma;
+}
+button {
+    position: relative;
+    background-color: #eed202;
+    color: #222;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+	color:purple ; 
+    font-family:Tahoma;
+	font-weight:bold;
+	margin-bottom: 20px;
+        }
+button:hover {
+    background-color: DarkGray;
+}
+</style>
+</head>
+<body>
+
+    <video autoplay muted loop id="myVideo">
+      <source src= "Website Design\BackgroundHome1.mp4" type="video/mp4">
+	  Your browser does not support the Video background element.
+    </video>
+	
+	<audio controls autoplay loop>
+      <source src="Website Design\HomeBackgroundMusic.mp3" type="audio/ogg">
+      <source src="Website Design\HomeBackgroundMusic.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+	
+    <br>
+    <h1 style="text-align:center; font-size:80px ; color:white ; font-family:verdana; position: relative; ">Welcome to My Personal Page</h1>
+	<br>
+	<br>
+	  <div class= "text">
+	    <h2>Hi, My Name is Syahmi!</h2>
+      </div>
+	  
+	  <div class= "Intro" >
+		<img src="Website Design\ProfileHome.jpg" alt="Image of the sites owner"/>
+      </div>
+	<br>
+	
+      <div class="Box">
+        <h3> Website's Itinenary </h3>
+        <button onclick="location.href='2.Biodata.htm'">BIODATA</button>
+        <button onclick="location.href='3.Experience.htm'">EXPERIENCE</button>
+		<button onclick="location.href='4.Education.htm'">EDUCATION</button>
+		<button onclick="location.href='5.Family.htm'">FAMILY</button>
+		<button onclick="location.href='6.Gallery.htm'">GALLERY</button>
+    </div>
+	
+</body>
+</html>

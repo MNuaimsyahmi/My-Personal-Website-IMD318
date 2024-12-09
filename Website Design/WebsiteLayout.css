@@ -1,0 +1,145 @@
+.Box { 
+    font-size: 30px;
+    text-align: center;
+    background-color: #1d3030 ;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+	color:#a4c0f4; 
+    font-family:Tahoma;
+    position: relative; 
+    z-index: 200;
+}
+h1 { 
+   font-size: 50px;
+}
+button {
+    background-color: #eed202;
+    color: #222;
+    padding: 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 5px;
+	color:purple ; 
+    font-family:Tahoma;
+	font-weight:bold;
+}
+button:hover {
+    background-color: DarkGray;
+}
+body {
+    margin: 0;
+    font-family: Tahoma;
+}
+.SideBanner {
+    position: fixed;
+    top: 0; 
+	width: 180px;
+    height: 100vh; 
+    background-size: cover;
+    background-position: center;
+    z-index: 100;
+}
+.LeftBanner {
+    left: 0;
+    background-image: url('Banner_left.png'); 
+    background-repeat: repeat-y;
+}
+.RightBanner {
+    right: 0;
+    background-image: url('Banner_right.png'); 
+    background-repeat: repeat-y;
+}
+.Content {
+    padding: 0 100px;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+@media (max-width: 768px) {
+     .SideBanner {
+          display: none; 
+          }
+          body {
+              padding: 0; 
+       }
+}
+h2 {
+	font-size: 17px; 
+}
+h3 {
+	font-size: 40px;
+	font-family: Verdana;
+}
+footer {
+    font-size: 15px;
+	clear: both;
+    text-align: center;
+    background-color: #1E1E50 ;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+	color:white; 
+    font-family:Tahoma;
+    position: relative; 
+    z-index: 200;	
+}
+.Albums{
+  margin: 10px;
+  border: 2px solid black;
+  float: left;
+  width: 400px;
+  margin-right:50px;
+  margin-left:70px;
+  margin-bottom: 30px;
+  background-color: #0D7377;
+  font-size: 20px;
+  color: white;
+  border-radius: 4px;
+}
+
+.Albums:hover {
+  border: 2px solid #eed202;
+}
+
+.Albums img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Photos{
+  margin: 10px;
+  border: 1px solid black;
+  float: left;
+  width: 180px;
+  margin-right:10px;
+  margin-left:20px;
+  margin-bottom: 30px;
+  background-color: #0D7377;
+  font-size: 20px;
+  color: white;
+  border-radius: 4px;
+}
+
+.Photos:hover {
+  border: 1px solid #eed202;
+}
+
+.Photos img {
+  width: 100%;
+  height: auto;
+  max-height: 130px;
+  
+}
