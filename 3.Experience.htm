@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- This is the Experience page of the website -->
 <html>
 <head>
 <title>Experience</title>
@@ -39,9 +39,18 @@ h5 {
 	background-color: Gray;
 	font-weight: bold;
 }
-p {
+dl { 
 	font-family: Courier New;
 	font-weight: bold;
+	line-height: 35px;
+}
+@media (max-width: 1000px) { /* styling to change the styling for the content on the right and left if the screen is small */
+     .ContentRight {
+          margin-left: 270px; 
+          }
+	 .ContentLeft {
+          margin-left: -50px; 
+          }
 }
 </style>
 <link rel="stylesheet" href="Website Design/WebsiteLayout.css">
@@ -68,36 +77,44 @@ p {
 	   <div class="ContentLeft">
 	   <h5> KARISMA NEGERI SEMBILAN 2024 – BASKETBALL</h5>
 	   <img src="Website Design\Karisma.jpg" style="max-width: 90%; max-height: 90%;" alt= "Picture of UiTM Negeri Sembilan Basketball Team 2024">
-	       <br>
-		   <p>Quarterfinal stage </p>
-               <p style="margin-left: 25px;"> • Represented in UiTM Negeri Sembilan Branch team for Karisma. </p>
-               <p style="margin-left: 25px;"> • Reached the Quarterfinal. </p>
-               <p style="margin-left: 25px;"> • UiTM Negeri Sembilan was the host. </p>
+	      
+		  <dl> <!-- dl, dt, dd is used to make a list here -->
+		   <dt>Quarterfinal stage </dt>
+               <dd> • Represented in UiTM Negeri Sembilan Branch team for Karisma. </dd>
+               <dd> • Reached the Quarterfinal. </dd>
+               <dd> • UiTM Negeri Sembilan was the host. </dd>
+		   </dl>
        </div>
 	   
 	   <div class="ContentRight">
 	   <h5> INTERNSHIP AT KWSP KWASA DAMANSARA 2024</h5>
 	   <img src="Website Design\Internship.jpg" alt="Picture of Me with my Supervisor at KWSP" style="max-width: 90%; max-height: 90%;">
-	        <p>At KWSP Kwasa Damansara</p>
-               <p style="margin-left: 25px;"> • The office was their Headquarter. </p>
-               <p style="margin-left: 25px;"> • Placed in the Physical Channel Department. </p>
-               <p style="margin-left: 25px;"> • It last for 8 weeks, from 22 July - 13 September 2024. </p>
+	        <dl>
+			<dt>At KWSP Kwasa Damansara</dt>
+               <dd> • The office was their Headquarter. </dd>
+               <dd> • Placed in the Physical Channel Department. </dd>
+               <dd> • It last for 8 weeks, from 22 July - 13 September 2024. </dd>
+			</dl>
 	   </div>
 	
 	    <div class="ContentLeft">
 	   <h5> SUKAN ANTARA FAKULTI/GHOMBAU SPORTS DAY DECEMBER 2023 - BASKETBALL</h5>
 	   <img src="Website Design\SAF-GSD-Dec-2023.jpg" style="max-width: 90%; max-height: 90%;" alt= "Picture of GSD Team for December 2023">
-	       <p>First Place </p>
-               <p style="margin-left: 25px;"> • Participated in Sukan Antara Fakulti organised by the university. </p>
-               <p style="margin-left: 25px;"> • Won First place in Basketball.  </p>
+	       <dl>
+		   <dt>First Place </dt>
+               <dd> • Participated in Sukan Antara Fakulti organised by the university. </dd>
+               <dd> • Won First place in Basketball.  </dd>
+		   </dl>
        </div> 
 	   
 	   <div class="ContentRight">
 	   <h5> SUKAN ANTARA FAKULTI JANUARY 2023- BASKETBALL </h5>
 	   <img src="Website Design\SAF-Jan-2023.jpg" alt="Picture of SAF Team for January 2023" style="max-width: 90%; max-height: 90%;">
-	        <p>Second Place</p>
-               <p style="margin-left: 25px;"> • Participated in Sukan Antara Fakulti organised by the university. </p>
-               <p style="margin-left: 25px;"> • Won Second place in Basketball.  </p>
+	        <dl>
+			<dt>Second Place</dt>
+               <dd> • Participated in Sukan Antara Fakulti organised by the university. </dd>
+               <dd> • Won Second place in Basketball.  </dd>
+			</dl>
 	    </div>
 	</div>
 
